@@ -22,3 +22,17 @@ turtleboot/
 ```
 
 Each script plays a specific role and makes sure that a Turtlebot3 can be setup from any stage in the process. For instance, `preros.bash` deals with configuring some of the update rules before the turtlebot has to be rebooted per the ROBOTIS docs. I also found an error is ROBOTIS' setup guide while creating this project, the package `ros-jazzy-xacro` is actually required to run the turtlebot bringup command which is most likely due to the onboard URDF file utilizing xacro.
+
+I also took the chance to add some fun ascii art while learning how to run these with the correct permissions (need sudo commands, but can't run as root...):
+```
+ _____           _   _      ____              _   
+|_   _|   _ _ __| |_| | ___| __ )  ___   ___ | |_ 
+  | || | | | '__| __| |/ _ \  _ \ / _ \ / _ \| __|
+  | || |_| | |  | |_| |  __/ |_) | (_) | (_) | |_ 
+  |_| \__,_|_|   \__|_|\___|____/ \___/ \___/ \__|
+                   _____     ____
+                 /      \  |  o | 
+                |        |/ ___\| 
+                |_________/     
+                |_|_| |_|_|
+```
