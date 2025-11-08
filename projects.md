@@ -11,6 +11,7 @@ description: My personal projects
 ## [{{ post.title }}]({{ post.url }})
 *{{ post.date | date: "%B %-d, %Y" }}*
 
+{{ post.description }}
 {{ post.excerpt }}
 
 [Read more...]({{ post.url }})
